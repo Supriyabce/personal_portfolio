@@ -1,0 +1,35 @@
+.aside .logo a::before{
+	border-top: 4px solid #ffb400;
+	border-left: 4px solid #ffb400;
+}
+.aside .logo a::after{
+	border-bottom: 4px solid #ffb400;
+	border-right:  4px solid #ffb400;
+}
+
+.contact .contact-info-item .icon .fa,
+.blog .blog-item-inner .blog-info .blog-tags a,
+
+.aside .nav li a:hover,
+body.dark .aside .nav li a:hover,
+	body.dark .aside .nav li a.active,
+.service .service-item .service-item-inner .icon .fa,
+.about .about-content .about-text h3 span,
+	.aside .nav li a.active
+{
+	color: #ffb400;
+}
+.blog .blog-item-inner .blog-img .blog-date,
+.service .service-item .service-item-inner:hover .icon .fa,
+.about .about-content .timeline .circle-dot,
+.about .about-content .timeline .timeline-item::before,
+.aside .nav-toggler span,
+.btn,.about .about-content .skills .skill-item .progress .progress-in,
+.aside .nav-toggler span::before
+	,.aside .nav-toggler span::after,
+	.section-title h2::before,
+	.section-title h2::after,
+	.home .intro .social-links a{
+		background-color: #ffb400;
+	}
+	
